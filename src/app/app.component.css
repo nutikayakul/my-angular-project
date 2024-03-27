@@ -1,0 +1,142 @@
+.input_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.login-header {
+    position: relative;
+    width: 450px;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 5em 5em 5em 11em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba( 0, 0, 0, 0.2);
+    background-image: img('1.jpg');
+}
+
+.login-header span {
+    font-size: 30px;
+    color: var(--back-color);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(186, 86, 86, 0.2);
+}
+
+h3 {
+    color: #0800ff;
+    /* สีข้อความ */
+    font-family: Arial, sans-serif;
+    /* แบบอักษร */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+.form-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    padding: 10px 20px;
+    /* เพิ่ม padding เพื่อให้มีพื้นที่ห่างของ Navbar */
+    border-bottom: 1px solid #ccc;
+    /* เพิ่มเส้นขอบด้านล่างของ Navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    /* เพิ่มขนาดตัวอักษรของ Navbar Brand */
+    font-weight: bold;
+    /* เพิ่มความหนาของตัวอักษรของ Navbar Brand */
+}
+
+.nav-link {
+    font-size: 18px;
+    /* เพิ่มขนาดตัวอักษรของ Navbar Links */
+    margin-right: 10px;
+    /* เพิ่มระยะห่างขวาของ Navbar Links */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    /* เพิ่มความหนาของ Navbar Links เมื่อ Active */
+    color: #007bff;
+    /* เปลี่ยนสีของ Navbar Links เมื่อ Active */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+.white-button {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-blue-background {
+    background-color: rgb(196, 239, 254);
+}

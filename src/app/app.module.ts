@@ -3,21 +3,24 @@ import { BrowserModule } from "@angular/platform-browser";
 
 import { AppComponent } from "./app.component";
 
-import { FormsModule, ReactiveFormsModule, formControl, Validators   } from "@angular/forms";
-import { HttpClientModule } from "@angular/common/http";
+import { FormsModule, ReactiveFormsModule, Validators, FormControl   } from "@angular/forms";
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { AppRoutingModule } from "./app.routes";
+import { CommonModule, NgIf } from "@angular/common";
 
 
 @NgModule({
     declarations: [
         AppComponent,
-        Validators,
-        formControl
+        FormControl
     ],
     imports: [
         BrowserModule,
+        HttpClientModule,
         FormsModule,
-        ReactiveFormsModule,
-        HttpClientModule
+        AppRoutingModule,
+        CommonModule
     ],
     providers: [],
     bootstrap: [AppComponent]
